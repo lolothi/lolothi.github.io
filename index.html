@@ -1,12 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Page</title>
-</head>
-<body>
-
-<div>Hello !</div>
-
-</body>
+<html>
+    <head>
+        <title>Développeur fullstack en recherche d'emploi - Laurent Thillou</title>
+        <meta charset="utf-8"/>
+        <meta name="author" content="Laurent Thillou"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="description" content="Bonjour, je suis Laurent Thillou, développeur fullstack, actuellement en recherche d'emploi dans la ville de Lyon, France."/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Développeur fullstack en recherche d'emploi - Laurent Thillou"/>
+        <meta property="og:description" content="Bonjour, je suis Laurent Thillou, développeur fullstack, actuellement en recherche d'emploi dans la ville de Lyon, France."/>
+        <link rel="stylesheet" href="./src/css/base.css"/>
+        <link rel="stylesheet" href="./src/css/card.css"/>
+        <link rel="stylesheet" href="./src/css/thumbnail.css"/>
+        <link rel="stylesheet" href="./src/css/path.css"/>
+        <link rel="stylesheet" href="./src/css/skill-box.css"/>
+        <link rel="stylesheet" href="./src/css/list.css"/>
+    </head>
+    <body>
+        <div class="page">
+            <div class="card" id="person">
+                <img id="person-picture" src="src/img/profil_Laurent_THILLOU.jpg"/>
+                <section>
+                    <h1>Laurent Thillou</h1>
+                    <h2>Développeur full-stack</h2>
+                    <p>Bonjour, je suis <strong>Laurent Thillou</strong>, <strong>Développeur full-stack</strong> actuellement en recherche d'emploi dans la ville de Lyon, France.</p>
+                    <div>
+                        <a class="button" target="_blank" id="person-email" href="mailto:thillou_laurent@yahoo.fr">M'envoyer un email</a>
+                        <span class="or"> ou </span>
+                        <a target="_blank" class="button" href="https://www.linkedin.com/in/laurent-thillou-developpeur-informatique-fullstack-gtb/">Profil LinkedIn</a>
+                    </div>
+                    <hr/>
+                </section>
+                <section>
+                    <h3>Compétences</h3>
+                    <ul class="list">
+                        <li>
+                            <div class="skill-box">
+                                HTML/CSS
+                                <div class="box-well">
+                                    Langage
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                Javascript
+                                <div class="box-well">
+                                    Langage
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                <!-- <span class="skill-favorite fa fa-bolt"></span> -->
+                                Java
+                                <div class="box-well">
+                                    Langage
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                Python
+                                <div class="box-well">
+                                    Langage
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                VueJS
+                                <div class="box-well">
+                                    Framework
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                SpringBoot
+                                <div class="box-well">
+                                    Framework
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                Git
+                                <div class="box-well">
+                                    Versioning
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                Docker
+                                <div class="box-well">
+                                    DevOps
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <hr/>
+                </section>
+                <section>
+                    <h3>Réalisations</h3>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(https://source.unsplash.com/random/800*600?music)"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">Projets d'études (en équipe)</span>
+                            <p class="thumbnail-title">Sono Light Reservation</p>
+                            <p class="thumbnail-description">Application de location de matériel pour une association. Ma partie : backend + docker</p>
+                            <div class="thumbnail-footer">
+                                <a href="https://github.com/lolothi/sono_light_reservation" target="_blank">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(https://source.unsplash.com/random/800*600?wine)"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">Application</span>
+                            <p class="thumbnail-title">Ma cave à vin</p>
+                            <p class="thumbnail-description">Application de gestion de cave à vin personnelle (en cours de création)</p>
+                            <div class="thumbnail-footer">
+                                <a href="https://github.com/lolothi/ma-cave-a-vin" target="_blank">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr/>
+                </section>
+                <section>
+                    <h3>Parcours</h3>
+                    <div class="path">
+                        <div class="step">
+                            <p class="step-title">Alternance chez Wattsense/Ecole IPI Lyon - octobre 2022 à sept 2023</p>
+                            <p>Développeur fullstack : 
+                                <ul>
+                                    <li>missions sur le webAccess client</li>
+                                    <li>refonte du processus d'activation des nouveaux utilisateurs, actions sur le frontend et backend</li>
+                                </ul> 
+                            <p>Dîplomé d'un titre professionnel de concepteur développeur d'application numérique (RNCP niv6)</p>
+                        </div>
+                        <div class="step">
+                            <p class="step-title">Stage de fin d'études chez Wattsense - début mars à juillet 2023</p>
+                            <p>Création d'une application de monitoring des équipements</p>
+                        </div>
+                        <div class="step">
+                            <p class="step-title">Ecole Epitech - octobre 2021 à juillet 2022</p>
+                            <p>Reconversion - Dîplomé d'un titre professionnel de concepteur développeur web et mobile</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </body>
 </html>
