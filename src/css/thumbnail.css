@@ -69,6 +69,8 @@
     margin-bottom: 3px;
     font-size: 14px;
     color: rgba(0,0,0,0.5);
+    text-align: justify;
+    text-justify: auto;
 }
 
 .thumbnail .badge {
